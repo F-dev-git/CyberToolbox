@@ -4,6 +4,7 @@
 # Mais ignorer spécifiquement le fichier de config sensible
 etc/config.php
 sw.js
+app.json
 
 # Gérer le dossier ressources : ignorer tout le contenu...
 ressources/*
