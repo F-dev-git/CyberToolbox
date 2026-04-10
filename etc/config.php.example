@@ -1,0 +1,24 @@
+<?php
+// config.php
+
+// Afficher les erreurs pour le débogage
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// Informations de connexion à la base de données
+const DB_SERVERNAME = "localhost:3307";
+const DB_USERNAME = "INSERT YOUR USERNAME";
+const DB_PASSWORD = "INSERT YOUR DB PASSWORD";
+const DB_NAME = "cybertoolbox";
+
+// Chemins des répertoires
+// Les fichiers sensibles sont désormais dans 'ressources/' (protégé par .htaccess)
+const PRIVATE_DIRECTORY = "ressources/transferts/";
+const NOTICES_DIRECTORY = "ressources/notices/";
+const QR_DIRECTORY = "ressources/qr-codes-wifi/";
+define('ENCRYPTION_KEY', 'GO TO THE README TO KNOW HOW TO GENERATE A KEY'); 
+// Algorithme de chiffrement
+define('ENCRYPTION_CIPHER', 'aes-256-cbc');
+// Longueur de l'IV (Vecteur d'Initialisation) pour l'algorithme choisi
+define('ENCRYPTION_IV_LENGTH', openssl_cipher_iv_length(ENCRYPTION_CIPHER));
+?>

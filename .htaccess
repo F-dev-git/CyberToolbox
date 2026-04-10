@@ -1,0 +1,5 @@
+<Files "app.json">
+    Satisfy Any
+    Allow from all
+    Require all granted
+</Files>

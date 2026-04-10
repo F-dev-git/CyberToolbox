@@ -1,0 +1,12 @@
+# Autoriser le dossier etc
+!etc/
+
+# Mais ignorer spécifiquement le fichier de config sensible
+etc/config.php
+sw.js
+
+# Gérer le dossier ressources : ignorer tout le contenu...
+ressources/*
+
+# ...sauf les fichiers .gitkeep (qui permettent de garder l'arborescence)
+!ressources/.gitkeep
