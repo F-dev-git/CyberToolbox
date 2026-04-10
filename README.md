@@ -25,6 +25,8 @@ Bash
 git clone https://github.com/F-dev-git/CyberToolbox.git
 
 3. Configuration
+    
+    Use database.sql to create the structure of the database
 
     Navigate to the etc/config/ directory.
 
@@ -35,6 +37,13 @@ git clone https://github.com/F-dev-git/CyberToolbox.git
         Your Database credentials (Host, User, Password, DB Name).
 
         Your unique Encryption Key.
+        
+    Temporaly move create_admin.php from /etc to ./
+    use create_admin.php to create your first user
+    replace create_admin.php into /etc
+    
+    You can now use gestion_annuaire.php to manage the list of home services
+    You can add manuals in the /ressources/notices folder and manage the appaarition of this manuals with gestion_notices.php
 
 🔐 Security & Encryption
 
