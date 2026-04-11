@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body class="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center py-12 px-4">
     <div class="w-full max-w-md bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
-        <h1 class="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">Levadoux.eu | CyberToolbox</h1>
+        <h1 class="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">F-dev-git | CyberToolbox</h1>
         <?php if ($error): ?>
             <div class="mb-4 p-3 bg-red-50 border border-red-200 text-red-700 rounded">
                 <?php echo htmlspecialchars($error, ENT_QUOTES); ?>
